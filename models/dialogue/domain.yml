@@ -1,0 +1,39 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_ask_purpose
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_purpose
+config:
+  store_entities_as_slots: true
+entities:
+- purpose
+intents:
+- greet
+- goodbye
+- target_purpose
+slots:
+  purpose:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_purpose:
+  - buttons:
+    - payload: personal protection"
+      title: Personal Protection
+    - payload: Hunting
+      title: Hunting
+    - payload: Recreational Shooting
+      title: Recreational Shooting
+    - payload: Something else
+      title: Something else
+    text: what is the actual purpose?
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye :(
+  utter_greet:
+  - text: Hello! How can I help?
+topics: []

@@ -1,0 +1,48 @@
+slots:
+  purpose:
+    type: categorical
+    - values:
+     -
+
+intents:
+ - greet
+ - goodbye
+ - target_purpose
+
+
+entities:
+ - purpose
+
+templates:
+  utter_greet:
+    - text: 'Hello! How can I help?'
+  utter_goodbye:
+    - text: 'Talk to you later.'
+    - text: 'Bye bye :('
+  utter_ask_purpose:
+    - text: 'what is the actual purpose?'
+      buttons:
+      - title: "Personal Protection"
+        payload: personal protection"
+      - title: "Hunting"
+        payload: "Hunting"
+      - title: "Recreational Shooting"
+        payload: "Recreational Shooting"
+      - title: "Something else"
+        payload: "Something else"
+  utter_ask_sub_purpose:
+    - text: 'what type of {{purpose}} do you need?'
+      buttons:
+      - title: "Concealed Carry"
+        payload: "concealed carry"
+      - title: "Home"
+        payload: "Home"
+      - title: "Recreational Shooting"
+        payload: "Recreational Shooting"
+      - title: "Something else"
+        payload: "Something else"
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_ask_purpose
