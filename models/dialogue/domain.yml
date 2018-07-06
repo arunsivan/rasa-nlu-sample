@@ -3,23 +3,54 @@ action_names:
 - utter_greet
 - utter_goodbye
 - utter_ask_purpose
+- utter_ask_location
+- utter_ask_purpose_pp_sub
+- utter_ask_subject
 actions:
 - utter_greet
 - utter_goodbye
 - utter_ask_purpose
+- utter_ask_location
+- utter_ask_purpose_pp_sub
+- utter_ask_subject
 config:
   store_entities_as_slots: true
 entities:
-- purpose
+- ask_subject
+- ask_purpose
 intents:
 - greet
 - goodbye
 - target_purpose
+- target_purpose_pp_sub
+- target_location
+- target_subject
 slots:
-  purpose:
+  ask_purpose:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - '-'
+    - l
+    - o
+    - w
+    - ' '
+    - '-'
+    - m
+    - e
+    - d
+    - ' '
+    - '-'
+    - h
+    - i
+    - g
+    - h
+  ask_subject:
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:
+  utter_ask_location:
+  - text: u need to go to location
   utter_ask_purpose:
   - buttons:
     - payload: personal protection"
@@ -30,7 +61,20 @@ templates:
       title: Recreational Shooting
     - payload: Something else
       title: Something else
-    text: what is the actual purpose?
+    text: what is the actual need?
+  utter_ask_purpose_pp_sub:
+  - buttons:
+    - payload: concealed carry
+      title: Concealed Carry
+    - payload: Home
+      title: Home
+    - payload: Recreational Shooting
+      title: Recreational Shooting
+    - payload: Something else
+      title: Something else
+    text: what type of {ask_purpose} do you need?
+  utter_ask_subject:
+  - text: what do you need to know about
   utter_goodbye:
   - text: Talk to you later.
   - text: Bye bye :(

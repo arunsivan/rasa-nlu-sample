@@ -1,100 +1,512 @@
-## Generated Story 3870200710308534874
-* goodbye
-    - utter_goodbye
-* askpurpose
+## Generated Story 2391960037127668074
+* target_purpose
+    - utter_ask_purpose
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story 6615240832327040262
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story 6589032455426705283
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story -3255803005656744506
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* target_purpose
     - utter_ask_purpose
 
-## Generated Story 3844514856647611032
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-
-## Generated Story 310314466718381136
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-* goodbye
-    - utter_goodbye
-
-## Generated Story 2898313927594964298
-* greet
-    - utter_greet
-* askpurpose
-    - utter_ask_purpose
-* greet
-    - utter_greet
-
-## Generated Story -192848123783729864
-* askpurpose
-    - utter_ask_purpose
-* greet
-    - utter_greet
-* askpurpose
-    - utter_ask_purpose
-* greet
-    - utter_greet
-
-## Generated Story 212525103936953168
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-
-## Generated Story 666967472070264112
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story -8318629333936996202
-* greet
-    - utter_greet
+## Generated Story -8883557910461497081
 * goodbye
     - utter_goodbye
 * greet
     - utter_greet
-* askpurpose
+* target_subject
+    - utter_ask_subject
+* target_purpose
     - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
 
-## Generated Story 3474687254236376212
+## Generated Story 5867836507554860810
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story 7582617493607226526
 * goodbye
     - utter_goodbye
-
-## Generated Story -1968184564192370068
-* askpurpose
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
     - utter_ask_purpose
-* askpurpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story 4320315822259231977
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* target_purpose
     - utter_ask_purpose
 * greet
     - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story -3001307621332224882
+* goodbye
+    - utter_goodbye
+* target_purpose
+    - utter_ask_purpose
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story 8258734182288458818
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story 6589032455426705283
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story 5590780634658900105
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* goodbye
+    - utter_goodbye
+* target_purpose
+    - utter_ask_purpose
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story -3299674284173129953
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story 7350399737984829855
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* goodbye
+    - utter_goodbye
 * goodbye
     - utter_goodbye
 
-## Generated Story 1102086953713051942
-* askpurpose
+## Generated Story -1329569614122932595
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* goodbye
+    - utter_goodbye
+* target_purpose
+    - utter_ask_purpose
+* target_purpose
+    - utter_ask_purpose
+
+## Generated Story -5230111193206404770
+* target_purpose
+    - utter_ask_purpose
+* target_purpose
+    - utter_ask_purpose
+
+## Generated Story -2305062785995488940
+* goodbye
+    - utter_goodbye
+
+## Generated Story -8420317533828960029
+* goodbye
+    - utter_goodbye
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+
+## Generated Story -1304089103744491185
+* goodbye
+    - utter_goodbye
+* target_purpose
     - utter_ask_purpose
 * goodbye
     - utter_goodbye
 * goodbye
     - utter_goodbye
+
+## Generated Story 1218046728276004494
+* target_purpose
+    - utter_ask_purpose
 * goodbye
     - utter_goodbye
-
-## Generated Story 4971695349384473334
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
-* askpurpose
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story -4845645146992419239
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* target_purpose
+    - utter_ask_purpose
+* target_purpose
+    - utter_ask_purpose
+
+## Generated Story 8422184237948079729
+* target_purpose
+    - utter_ask_purpose
+* target_purpose
     - utter_ask_purpose
 * greet
     - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story 3573651617434822409
+* target_purpose
+    - utter_ask_purpose
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story -4887947972053366174
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6615240832327040262
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story -7425004278930977778
+* goodbye
+    - utter_goodbye
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+* target_purpose
+    - utter_ask_purpose
+
+## Generated Story -8109681776418685713
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* target_purpose
+    - utter_ask_purpose
+
+## Generated Story 2225027333683961858
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+
+## Generated Story 2145140036234351989
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+* target_purpose
+    - utter_ask_purpose
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story 4775680949836303046
+* target_purpose
+    - utter_ask_purpose
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* goodbye
+    - utter_goodbye
+
+## Generated Story -2695091674548225611
+* target_purpose
+    - utter_ask_purpose
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story 5867836507554860810
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story -4426573410010776365
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* goodbye
+    - utter_goodbye
+
+## Generated Story -655383342560935805
+* target_purpose
+    - utter_ask_purpose
+
+## Generated Story -4926480925842492561
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1934025915889095013
+* target_purpose
+    - utter_ask_purpose
+* target_purpose
+    - utter_ask_purpose
+* target_purpose
+    - utter_ask_purpose
+
+## Generated Story 8258734182288458818
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story 6386569242989542328
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
 * goodbye
     - utter_goodbye
 
@@ -104,45 +516,139 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story -5163813253289014982
+## Generated Story 7582617493607226526
+* goodbye
+    - utter_goodbye
 * greet
     - utter_greet
-* askpurpose
+* target_subject
+    - utter_ask_subject
+* target_purpose
     - utter_ask_purpose
-* askpurpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
     - utter_ask_purpose
-* askpurpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story 4734745104436559906
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* target_purpose
     - utter_ask_purpose
 
-## Generated Story -6152180560239291576
-* greet
-    - utter_greet
-* greet
-    - utter_greet
+## Generated Story -1422279638971191630
 * goodbye
     - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story -5933334713487261214
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-* askpurpose
-    - utter_ask_purpose
-
-## Generated Story -2305062785995488940
-* goodbye
-    - utter_goodbye
-
-## Generated Story -8395827149398499838
-* goodbye
-    - utter_goodbye
-* askpurpose
+* target_purpose
     - utter_ask_purpose
 * goodbye
     - utter_goodbye
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story 2847460467704710882
+* target_purpose
+    - utter_ask_purpose
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story -5544666729035138963
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* target_purpose
+    - utter_ask_purpose
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story 2391960037127668074
+* target_purpose
+    - utter_ask_purpose
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story -8092891782369639763
+* target_purpose
+    - utter_ask_purpose
+* target_purpose
+    - utter_ask_purpose
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+
+## Generated Story -8179925739392372882
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* goodbye
+    - utter_goodbye
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+
+## Generated Story 3318429637415959097
+* target_purpose
+    - utter_ask_purpose
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+* target_purpose
+    - utter_ask_purpose
+
+## Generated Story 5238466299880245786
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+* target_purpose
+    - utter_ask_purpose
 
 ## Generated Story -968534254473205264
 * goodbye
@@ -152,520 +658,346 @@
 * goodbye
     - utter_goodbye
 
-## Generated Story 4335971473837923400
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-
-## Generated Story -8728010848545609980
-* askpurpose
+## Generated Story 1945514783760502933
+* target_purpose
     - utter_ask_purpose
 * greet
     - utter_greet
-* askpurpose
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* target_purpose
     - utter_ask_purpose
 
-## Generated Story 8784154289435351152
+## Generated Story -5150206653395866106
 * goodbye
     - utter_goodbye
 * greet
     - utter_greet
-* greet
-    - utter_greet
-
-## Generated Story 2566091348076702038
-* askpurpose
+* target_subject
+    - utter_ask_subject
+* target_purpose
     - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-* goodbye
-    - utter_goodbye
-* askpurpose
-    - utter_ask_purpose
-
-## Generated Story 2971291029581849964
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-
-## Generated Story -8464054137464980334
-* askpurpose
-    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
 * goodbye
     - utter_goodbye
 * greet
     - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
 
-## Generated Story -3746706054083945684
-* askpurpose
+## Generated Story -3255803005656744506
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* target_purpose
+    - utter_ask_purpose
+
+## Generated Story 4320315822259231977
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* target_purpose
+    - utter_ask_purpose
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story -4596848871358352551
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* target_purpose
     - utter_ask_purpose
 * goodbye
     - utter_goodbye
-* goodbye
-    - utter_goodbye
-* askpurpose
+* target_purpose
     - utter_ask_purpose
 
-## Generated Story -531868716350598128
-* greet
-    - utter_greet
+## Generated Story 5485687489594152027
 * goodbye
     - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story 8514594606362897568
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-* greet
-    - utter_greet
-
-## Generated Story 2737574001259227968
-* askpurpose
-    - utter_ask_purpose
-* goodbye
-    - utter_goodbye
-* askpurpose
-    - utter_ask_purpose
-* greet
-    - utter_greet
-
-## Generated Story -3732664886120593368
-* greet
-    - utter_greet
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4992252697502490450
-* askpurpose
-    - utter_ask_purpose
-* goodbye
-    - utter_goodbye
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-
-## Generated Story -5355332117323100970
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* askpurpose
-    - utter_ask_purpose
-
-## Generated Story -4536356975655042920
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-
-## Generated Story 1724579600787269880
-* greet
-    - utter_greet
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-* greet
-    - utter_greet
-
-## Generated Story -6430349639748637208
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story -2531751355749186266
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-* goodbye
-    - utter_goodbye
-
-## Generated Story 4358195491692183384
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-
-## Generated Story -599023676219324634
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-* askpurpose
-    - utter_ask_purpose
-
-## Generated Story -3133197745794603486
-* greet
-    - utter_greet
-* askpurpose
-    - utter_ask_purpose
-* goodbye
-    - utter_goodbye
-
-## Generated Story -3029940626534246204
-* greet
-    - utter_greet
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-
-## Generated Story 2983814130575460970
-* greet
-    - utter_greet
-* askpurpose
-    - utter_ask_purpose
-
-## Generated Story -5865346343666901106
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* askpurpose
-    - utter_ask_purpose
-* greet
-    - utter_greet
-
-## Generated Story -5033478903743385996
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-
-## Generated Story 202113326663019388
-* goodbye
-    - utter_goodbye
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-
-## Generated Story 574066503563726154
-* goodbye
-    - utter_goodbye
-* askpurpose
-    - utter_ask_purpose
-* greet
-    - utter_greet
-
-## Generated Story 7163456763293033120
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-
-## Generated Story 2202267170290959268
-* askpurpose
-    - utter_ask_purpose
-* goodbye
-    - utter_goodbye
-* askpurpose
-    - utter_ask_purpose
-
-## Generated Story -5545935052999190998
-* askpurpose
-    - utter_ask_purpose
-* greet
-    - utter_greet
-
-## Generated Story 9090331467671168920
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-
-## Generated Story -2090479853505675334
-* askpurpose
-    - utter_ask_purpose
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story 5722918171028029178
-* askpurpose
-    - utter_ask_purpose
-* greet
-    - utter_greet
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-
-## Generated Story -5098395529458607386
-* askpurpose
-    - utter_ask_purpose
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story -122105230532547294
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* askpurpose
-    - utter_ask_purpose
-
-## Generated Story -4476590550414774902
-* askpurpose
-    - utter_ask_purpose
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-
-## Generated Story -3215672836472849364
-* greet
-    - utter_greet
-* askpurpose
-    - utter_ask_purpose
-* greet
-    - utter_greet
-* askpurpose
-    - utter_ask_purpose
-
-## Generated Story -7928774271737776864
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-
-## Generated Story -3694207911344300478
-* askpurpose
-    - utter_ask_purpose
-* goodbye
-    - utter_goodbye
-
-## Generated Story -6242995196361066436
-* greet
-    - utter_greet
-
-## Generated Story -2104961521850038114
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-* askpurpose
-    - utter_ask_purpose
-* goodbye
-    - utter_goodbye
-
-## Generated Story 7246138680772493856
-* askpurpose
-    - utter_ask_purpose
-* goodbye
-    - utter_goodbye
-* askpurpose
-    - utter_ask_purpose
-* goodbye
-    - utter_goodbye
-
-## Generated Story -8167272014206609900
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-* goodbye
-    - utter_goodbye
-* goodbye
-    - utter_goodbye
-
-## Generated Story 740221152274733912
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-
-## Generated Story 7457333506736585446
-* greet
-    - utter_greet
-* askpurpose
-    - utter_ask_purpose
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-
-## Generated Story -6869959248448297498
-* askpurpose
-    - utter_ask_purpose
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story -6769919861232442014
-* askpurpose
-    - utter_ask_purpose
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-
-## Generated Story -322138210506614690
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-
-## Generated Story -2005744791063692042
-* askpurpose
-    - utter_ask_purpose
 * goodbye
     - utter_goodbye
 * goodbye
     - utter_goodbye
 * greet
     - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
 
-## Generated Story -2490895657367808020
-* askpurpose
+## Generated Story 2595500130201058380
+* target_purpose
     - utter_ask_purpose
-* greet
-    - utter_greet
-* goodbye
-    - utter_goodbye
-* askpurpose
+* target_purpose
+    - utter_ask_purpose
+* target_purpose
+    - utter_ask_purpose
+* target_purpose
     - utter_ask_purpose
 
-## Generated Story -4410130413301305332
-* askpurpose
+## Generated Story 6115013652458752995
+* target_purpose
     - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-* goodbye
-    - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story 5803802043760067350
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-* greet
-    - utter_greet
-
-## Generated Story 9161035128858309842
 * goodbye
     - utter_goodbye
 * goodbye
     - utter_goodbye
-* askpurpose
-    - utter_ask_purpose
-
-## Generated Story 2691817947059812816
 * goodbye
     - utter_goodbye
+
+## Generated Story 7864501072687743078
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
 * goodbye
     - utter_goodbye
-* greet
-    - utter_greet
-
-## Generated Story -7132069997873084126
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* askpurpose
+* target_purpose
     - utter_ask_purpose
 
-## Generated Story -2658102881521618098
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-* greet
-    - utter_greet
-* askpurpose
-    - utter_ask_purpose
-
-## Generated Story -3234160799028244780
-* askpurpose
-    - utter_ask_purpose
-* askpurpose
-    - utter_ask_purpose
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-
-## Generated Story 5721176659735904852
+## Generated Story -952668752693512150
 * goodbye
     - utter_goodbye
 * greet
     - utter_greet
-
-## Generated Story 458293654846588086
-* askpurpose
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* target_purpose
     - utter_ask_purpose
 
-## Generated Story 6931292460571090408
-* askpurpose
+## Generated Story 6296614011523446862
+* goodbye
+    - utter_goodbye
+* target_purpose
+    - utter_ask_purpose
+* target_purpose
+    - utter_ask_purpose
+
+## Generated Story -3611158601198181233
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+* target_purpose
+    - utter_ask_purpose
+
+## Generated Story -3383136287577504853
+* goodbye
+    - utter_goodbye
+* target_purpose
+    - utter_ask_purpose
+
+## Generated Story -47067681471280299
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+* target_purpose
+    - utter_ask_purpose
+* target_purpose
+    - utter_ask_purpose
+
+## Generated Story -8883557910461497081
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story 4823264772468942201
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* target_purpose
+    - utter_ask_purpose
+* target_purpose
+    - utter_ask_purpose
+
+## Generated Story 9019400006772509462
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* goodbye
+    - utter_goodbye
+* target_purpose
+    - utter_ask_purpose
+
+## Generated Story -3001307621332224882
+* goodbye
+    - utter_goodbye
+* target_purpose
     - utter_ask_purpose
 * greet
     - utter_greet
-* askpurpose
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story 2125199558733065499
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* goodbye
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+
+## Generated Story 1091728606776376846
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+
+## Generated Story 8262588210773132682
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+
+## Generated Story 5995284075953693675
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* goodbye
+    - utter_goodbye
+
+## Generated Story -7999252782615309674
+* target_purpose
+    - utter_ask_purpose
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+
+## Generated Story -3308421769945556211
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+* target_purpose
+    - utter_ask_purpose
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story -4202231123690047988
+* target_purpose
+    - utter_ask_purpose
+* target_purpose
+    - utter_ask_purpose
+* target_purpose
+    - utter_ask_purpose
+* greet
+    - utter_greet
+* target_subject
+    - utter_ask_subject
+* target_purpose
+    - utter_ask_purpose
+* target_purpose_pp_sub
+    - utter_ask_purpose_pp_sub
+
+## Generated Story -879373740846179705
+* target_purpose
     - utter_ask_purpose
 * goodbye
     - utter_goodbye

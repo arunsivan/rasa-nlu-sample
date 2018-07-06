@@ -1,26 +1,38 @@
 slots:
-  purpose:
+  ask_purpose:
     type: categorical
-    - values:
-     -
+    values:
+      -low
+      -med
+      -high
+  ask_subject:
+    type: text
 
 intents:
  - greet
  - goodbye
  - target_purpose
+ - target_purpose_pp_sub
+ - target_location
+ - target_subject
 
 
 entities:
- - purpose
+ - ask_subject
+ - ask_purpose
 
 templates:
+  utter_ask_subject:
+    - text: "what do you need to know about"
+  utter_ask_location:
+    - text: "u need to go to location"
   utter_greet:
     - text: 'Hello! How can I help?'
   utter_goodbye:
     - text: 'Talk to you later.'
     - text: 'Bye bye :('
   utter_ask_purpose:
-    - text: 'what is the actual purpose?'
+    - text: 'what is the actual need?'
       buttons:
       - title: "Personal Protection"
         payload: personal protection"
@@ -30,8 +42,8 @@ templates:
         payload: "Recreational Shooting"
       - title: "Something else"
         payload: "Something else"
-  utter_ask_sub_purpose:
-    - text: 'what type of {{purpose}} do you need?'
+  utter_ask_purpose_pp_sub:
+    - text: 'what type of {ask_purpose} do you need?'
       buttons:
       - title: "Concealed Carry"
         payload: "concealed carry"
@@ -46,3 +58,6 @@ actions:
  - utter_greet
  - utter_goodbye
  - utter_ask_purpose
+ - utter_ask_location
+ - utter_ask_purpose_pp_sub
+ - utter_ask_subject

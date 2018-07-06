@@ -9,7 +9,7 @@
     "action_listen": {
       "slots": []
     }, 
-    "utter_greet": {
+    "utter_ask_purpose_pp_sub": {
       "slots": []
     }
   }, 

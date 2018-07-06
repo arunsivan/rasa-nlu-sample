@@ -15,5 +15,5 @@ def run_nlu():
 	print(interpreter.parse(u'i need a gun for personal protection'))
 	
 if __name__ == '__main__':
-	#train_nlu('./data/data.json', 'config_spacy.json', './models/nlu')
-	run_nlu()
+	train_nlu('./data/data.json', 'config_spacy.yml', './models/nlu')
+	# run_nlu()

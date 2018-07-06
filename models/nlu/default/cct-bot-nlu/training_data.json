@@ -62,14 +62,14 @@
             "entity": "subject"
           }, 
           {
-            "start": 17, 
-            "end": 36, 
-            "value": "personal protection", 
-            "entity": "purpose"
+            "start": 9, 
+            "end": 12, 
+            "value": "gun", 
+            "entity": ""
           }
         ], 
-        "intent": "target_purpose", 
-        "text": "i need a gun for personal protection"
+        "intent": "target_subject", 
+        "text": "i need a gun"
       }, 
       {
         "entities": [
@@ -80,7 +80,7 @@
             "entity": "subject"
           }
         ], 
-        "intent": "target_purpose", 
+        "intent": "target_subject", 
         "text": "i need gun"
       }, 
       {
@@ -90,16 +90,10 @@
             "end": 19, 
             "value": "gun", 
             "entity": "subject"
-          }, 
-          {
-            "start": 24, 
-            "end": 31, 
-            "value": "hunting", 
-            "entity": "purpose"
           }
         ], 
-        "intent": "target_purpose", 
-        "text": "i need to buy a gun for hunting"
+        "intent": "target_subject", 
+        "text": "i need to buy a gun"
       }, 
       {
         "entities": [
@@ -110,38 +104,89 @@
             "entity": "subject"
           }
         ], 
-        "intent": "target_purpose", 
+        "intent": "target_subject", 
         "text": "find me a gun"
-      }
-    ], 
-    "entity_synonyms": [
-      {
-        "synonyms": [
-          "shoot", 
-          "Recreatinal shooting", 
-          "hunting", 
-          "personal", 
-          "personal protection", 
-          "hunt", 
-          "protection", 
-          "shooting"
-        ], 
-        "value": "purpose"
       }, 
       {
-        "synonyms": [
-          "shotgun", 
-          "gun", 
-          "firearm", 
-          "pistol", 
-          "firearms", 
-          "rifle", 
-          "handgun", 
-          "guns"
+        "entities": [
+          {
+            "start": 8, 
+            "end": 27, 
+            "value": "personal protection", 
+            "entity": "ask_purpose"
+          }
         ], 
-        "value": "subject"
+        "intent": "target_purpose", 
+        "text": "gun for personal protection"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 19, 
+            "value": "personal protection", 
+            "entity": "ask_purpose"
+          }
+        ], 
+        "intent": "target_purpose", 
+        "text": "personal protection"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 23, 
+            "value": "personal protection", 
+            "entity": "ask_purpose"
+          }
+        ], 
+        "intent": "target_purpose", 
+        "text": "for personal protection"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 15, 
+            "value": "hunting", 
+            "entity": "ask_purpose"
+          }
+        ], 
+        "intent": "target_purpose", 
+        "text": "gun for hunting"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 7, 
+            "value": "hunting", 
+            "entity": "ask_purpose"
+          }
+        ], 
+        "intent": "target_purpose", 
+        "text": "hunting"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 7, 
+            "value": "vehicle", 
+            "entity": "ask_purpose_pp_sub"
+          }, 
+          {
+            "start": 0, 
+            "end": 7, 
+            "value": "vehicle", 
+            "entity": ""
+          }
+        ], 
+        "intent": "target_purpose_pp_sub", 
+        "text": "vehicle"
       }
     ], 
+    "entity_synonyms": [], 
     "regex_features": []
   }
 }

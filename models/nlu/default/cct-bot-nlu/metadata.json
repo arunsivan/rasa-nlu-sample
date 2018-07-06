@@ -1,5 +1,5 @@
 {
-    "trained_at": "20180702-222307", 
+    "trained_at": "20180706-001451", 
     "pipeline": [
         {
             "class": "rasa_nlu.utils.spacy_utils.SpacyNLP", 
@@ -16,9 +16,21 @@
             "class": "rasa_nlu.featurizers.spacy_featurizer.SpacyFeaturizer"
         }, 
         {
-            "regex_file": "regex_featurizer.json", 
-            "name": "intent_entity_featurizer_regex", 
-            "class": "rasa_nlu.featurizers.regex_featurizer.RegexFeaturizer"
+            "kernels": [
+                "linear"
+            ], 
+            "C": [
+                1, 
+                2, 
+                5, 
+                10, 
+                20, 
+                100
+            ], 
+            "name": "intent_classifier_sklearn", 
+            "max_cross_validation_folds": 5, 
+            "classifier_file": "intent_classifier_sklearn.pkl", 
+            "class": "rasa_nlu.classifiers.sklearn_intent_classifier.SklearnIntentClassifier"
         }, 
         {
             "BILOU_flag": true, 
@@ -61,23 +73,6 @@
             "synonyms_file": "entity_synonyms.json", 
             "name": "ner_synonyms", 
             "class": "rasa_nlu.extractors.entity_synonyms.EntitySynonymMapper"
-        }, 
-        {
-            "kernels": [
-                "linear"
-            ], 
-            "C": [
-                1, 
-                2, 
-                5, 
-                10, 
-                20, 
-                100
-            ], 
-            "name": "intent_classifier_sklearn", 
-            "max_cross_validation_folds": 5, 
-            "classifier_file": "intent_classifier_sklearn.pkl", 
-            "class": "rasa_nlu.classifiers.sklearn_intent_classifier.SklearnIntentClassifier"
         }
     ], 
     "rasa_nlu_version": "0.12.3", 

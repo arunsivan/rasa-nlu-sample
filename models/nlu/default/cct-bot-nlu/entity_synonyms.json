@@ -1,18 +1,3 @@
 {
-  "shoot": "purpose",
-  "recreatinal shooting": "purpose",
-  "hunting": "purpose",
-  "personal": "purpose",
-  "shotgun": "subject",
-  "personal protection": "purpose",
-  "hunt": "purpose",
-  "gun": "subject",
-  "firearm": "subject",
-  "pistol": "subject",
-  "protection": "purpose",
-  "firearms": "subject",
-  "rifle": "subject",
-  "shooting": "purpose",
-  "handgun": "subject",
-  "guns": "subject"
+  "personalprotection": "personal protection"
 }
