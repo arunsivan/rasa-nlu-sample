@@ -2,58 +2,135 @@ action_factory: null
 action_names:
 - utter_greet
 - utter_goodbye
-- utter_ask_purpose
-- utter_ask_location
-- utter_ask_purpose_pp_sub
 - utter_ask_subject
+- utter_ask_purpose
+- utter_ask_purpose_pp_sub
+- utter_ask_recoil
+- utter_ask_budget
+- utter_ask_manufacturer
+- utter_ask_category
 actions:
 - utter_greet
 - utter_goodbye
-- utter_ask_purpose
-- utter_ask_location
-- utter_ask_purpose_pp_sub
 - utter_ask_subject
+- utter_ask_purpose
+- utter_ask_purpose_pp_sub
+- utter_ask_recoil
+- utter_ask_budget
+- utter_ask_manufacturer
+- utter_ask_category
 config:
   store_entities_as_slots: true
 entities:
-- ask_subject
-- ask_purpose
+- subject
+- purpose
+- purpose_sub
+- budget
+- manufacturer
+- category
+- recoil
 intents:
 - greet
 - goodbye
+- target_subject
 - target_purpose
 - target_purpose_pp_sub
-- target_location
-- target_subject
+- target_recoil
+- target_budget
+- target_manufacturer
+- target_category
 slots:
-  ask_purpose:
+  budget:
     initial_value: null
     type: rasa_core.slots.CategoricalSlot
     values:
-    - '-'
-    - l
-    - o
-    - w
-    - ' '
-    - '-'
-    - m
-    - e
-    - d
-    - ' '
-    - '-'
-    - h
-    - i
-    - g
-    - h
-  ask_subject:
+    - no budget
+    - no budget this time
+    - less than $278
+    - $278 and up
+  category:
     initial_value: null
-    type: rasa_core.slots.TextSlot
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - any category
+    - rifle
+    - handgun
+    - shotgun
+  manufacturer:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - any manufacturer
+    - glock
+    - beretta
+    - smith & wesson
+  purpose:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - personal protection
+    - hunting
+    - recreational shooting
+    - something else
+  purpose_sub:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - concealed carry
+    - home
+    - vehicle
+    - women, persons of small stature, limited strength
+  recoil:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - any recoil
+    - medium recoil
+    - heavy recoil
+    - low recoil
+  subject:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - guns
+    - movie
 templates:
-  utter_ask_location:
-  - text: u need to go to location
+  utter_ask_budget:
+  - buttons:
+    - payload: Less than $278
+      title: Less than $278
+    - payload: $278 and up
+      title: $278 and up
+    - payload: low recoil
+      title: Low Recoil
+    - payload: No budget
+      title: No budget at this time
+    text: What budget range do you have in mind?
+  utter_ask_category:
+  - buttons:
+    - payload: Any category
+      title: Any category
+    - payload: Handgun
+      title: Handgun
+    - payload: Shotgun
+      title: Shotgun
+    - payload: Rifle
+      title: Rifle
+    text: Which category would you prefer ?
+  utter_ask_manufacturer:
+  - buttons:
+    - payload: Any manufacturer
+      title: Any manufacturer
+    - payload: Beretta
+      title: Beretta
+    - payload: Glock
+      title: Glock
+    - payload: Smith & Wesson
+      title: Smith & Wesson
+    text: Which manufacturer would you prefer ?
   utter_ask_purpose:
   - buttons:
-    - payload: personal protection"
+    - payload: personal protection
       title: Personal Protection
     - payload: Hunting
       title: Hunting
@@ -61,23 +138,41 @@ templates:
       title: Recreational Shooting
     - payload: Something else
       title: Something else
-    text: what is the actual need?
+    text: what type of {subject} do you need?
   utter_ask_purpose_pp_sub:
   - buttons:
     - payload: concealed carry
       title: Concealed Carry
     - payload: Home
       title: Home
-    - payload: Recreational Shooting
-      title: Recreational Shooting
-    - payload: Something else
-      title: Something else
-    text: what type of {ask_purpose} do you need?
+    - payload: Vehicle
+      title: Vehicle
+    - payload: Women, Persons of Small Stature, Limited Strength
+      title: Women, Persons of Small Stature, Limited Strength
+    text: what type of {purpose} do you need?
+  utter_ask_recoil:
+  - buttons:
+    - payload: any
+      title: Any
+    - payload: medium recoil
+      title: Medium Recoil
+    - payload: low recoil
+      title: Low Recoil
+    - payload: heavy recoil
+      title: Heavy recoil
+    text: Which recoil would you prefer ?
   utter_ask_subject:
-  - text: what do you need to know about
+  - buttons:
+    - payload: guns
+      title: Guns
+    - payload: movies
+      title: Movies
+    text: what do you need to know about
   utter_goodbye:
   - text: Talk to you later.
   - text: Bye bye :(
   utter_greet:
   - text: Hello! How can I help?
+  - text: What can i do for you
+  - text: Hi, do you need any help
 topics: []

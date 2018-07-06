@@ -1,0 +1,161 @@
+slots:
+  subject:
+    type: categorical
+    values:
+      - Guns
+      - Movie
+  purpose:
+    type: categorical
+    values:
+      - Personal Protection
+      - Hunting
+      - Recreational Shooting
+      - Something else
+  purpose_sub:
+    type: categorical
+    values:
+      - Concealed Carry
+      - Home
+      - Vehicle
+      - Women, Persons of Small Stature, Limited Strength
+  recoil:
+    type: categorical
+    values:
+      - Any recoil
+      - Medium Recoil
+      - Heavy Recoil
+      - Low Recoil
+  category:
+    type: categorical
+    values:
+      - Any Category
+      - Rifle
+      - Handgun
+      - Shotgun
+  budget:
+    type: categorical
+    values:
+      - No budget
+      - No Budget this time
+      - Less than $278
+      - $278 and up
+  manufacturer:
+    type: categorical
+    values:
+      - Any manufacturer
+      - Glock
+      - Beretta
+      - Smith & Wesson
+
+intents:
+ - greet
+ - goodbye
+ - target_subject
+ - target_purpose
+ - target_purpose_pp_sub
+ - target_recoil
+ - target_budget
+ - target_manufacturer
+ - target_category
+
+entities:
+ - subject
+ - purpose
+ - purpose_sub
+ - budget
+ - manufacturer
+ - category
+ - recoil
+
+templates:
+  utter_greet:
+    - text: 'Hello! How can I help?'
+    - text: 'What can i do for you'
+    - text: 'Hi, do you need any help'
+  utter_goodbye:
+    - text: 'Talk to you later.'
+    - text: 'Bye bye :('
+  utter_ask_subject:
+    - text: 'what do you need to know about'
+      buttons:
+      - title: 'Guns'
+        payload: 'guns'
+      - title: 'Movies'
+        payload: 'movies'
+  utter_ask_purpose:
+    - text: 'what type of {subject} do you need?'
+      buttons:
+      - title: 'Personal Protection'
+        payload: 'personal protection'
+      - title: 'Hunting'
+        payload: 'Hunting'
+      - title: 'Recreational Shooting'
+        payload: 'Recreational Shooting'
+      - title: 'Something else'
+        payload: 'Something else'
+  utter_ask_purpose_pp_sub:
+    - text: 'what type of {purpose} do you need?'
+      buttons:
+      - title: 'Concealed Carry'
+        payload: 'concealed carry'
+      - title: 'Home'
+        payload: 'Home'
+      - title: 'Vehicle'
+        payload: 'Vehicle'
+      - title: 'Women, Persons of Small Stature, Limited Strength'
+        payload: 'Women, Persons of Small Stature, Limited Strength'
+  utter_ask_recoil:
+    - text: 'Which recoil would you prefer ?'
+      buttons:
+      - title: 'Any'
+        payload: 'any'
+      - title: 'Medium Recoil'
+        payload: 'medium recoil'
+      - title: 'Low Recoil'
+        payload: 'low recoil'
+      - title: 'Heavy recoil'
+        payload: 'heavy recoil'
+  utter_ask_budget:
+    - text: 'What budget range do you have in mind?'
+      buttons:
+      - title: 'Less than $278'
+        payload: 'Less than $278'
+      - title: '$278 and up'
+        payload: '$278 and up'
+      - title: 'Low Recoil'
+        payload: 'low recoil'
+      - title: 'No budget at this time'
+        payload: 'No budget'
+  utter_ask_manufacturer:
+    - text: 'Which manufacturer would you prefer ?'
+      buttons:
+      - title: 'Any manufacturer'
+        payload: 'Any manufacturer'
+      - title: 'Beretta'
+        payload: 'Beretta'
+      - title: 'Glock'
+        payload: 'Glock'
+      - title: 'Smith & Wesson'
+        payload: 'Smith & Wesson'
+  utter_ask_category:
+    - text: 'Which category would you prefer ?'
+      buttons:
+      - title: 'Any category'
+        payload: 'Any category'
+      - title: 'Handgun'
+        payload: 'Handgun'
+      - title: 'Shotgun'
+        payload: 'Shotgun'
+      - title: 'Rifle'
+        payload: 'Rifle'
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_ask_subject
+ - utter_ask_purpose
+ - utter_ask_purpose_pp_sub
+ - utter_ask_recoil
+ - utter_ask_budget
+ - utter_ask_manufacturer
+ - utter_ask_category

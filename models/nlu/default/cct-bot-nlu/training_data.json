@@ -2,27 +2,7 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "text": "Hello", 
-        "intent": "greet"
-      }, 
-      {
-        "text": "goodbye", 
-        "intent": "goodbye"
-      }, 
-      {
         "text": "hey", 
-        "intent": "greet"
-      }, 
-      {
-        "text": "hello", 
-        "intent": "greet"
-      }, 
-      {
-        "text": "hi", 
-        "intent": "greet"
-      }, 
-      {
-        "text": "heya", 
         "intent": "greet"
       }, 
       {
@@ -34,156 +14,24 @@
         "intent": "greet"
       }, 
       {
-        "text": "bye", 
-        "intent": "goodbye"
+        "text": "hello", 
+        "intent": "greet"
       }, 
       {
-        "text": "goodbye", 
-        "intent": "goodbye"
+        "text": "hi", 
+        "intent": "greet"
       }, 
       {
-        "text": "bye bye", 
-        "intent": "goodbye"
+        "text": "good morning", 
+        "intent": "greet"
       }, 
       {
-        "text": "see ya", 
-        "intent": "goodbye"
+        "text": "good evening", 
+        "intent": "greet"
       }, 
       {
-        "text": "see you later", 
-        "intent": "goodbye"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 9, 
-            "end": 12, 
-            "value": "gun", 
-            "entity": "subject"
-          }, 
-          {
-            "start": 9, 
-            "end": 12, 
-            "value": "gun", 
-            "entity": ""
-          }
-        ], 
-        "intent": "target_subject", 
-        "text": "i need a gun"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 7, 
-            "end": 10, 
-            "value": "gun", 
-            "entity": "subject"
-          }
-        ], 
-        "intent": "target_subject", 
-        "text": "i need gun"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 16, 
-            "end": 19, 
-            "value": "gun", 
-            "entity": "subject"
-          }
-        ], 
-        "intent": "target_subject", 
-        "text": "i need to buy a gun"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 10, 
-            "end": 13, 
-            "value": "gun", 
-            "entity": "subject"
-          }
-        ], 
-        "intent": "target_subject", 
-        "text": "find me a gun"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 8, 
-            "end": 27, 
-            "value": "personal protection", 
-            "entity": "ask_purpose"
-          }
-        ], 
-        "intent": "target_purpose", 
-        "text": "gun for personal protection"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 0, 
-            "end": 19, 
-            "value": "personal protection", 
-            "entity": "ask_purpose"
-          }
-        ], 
-        "intent": "target_purpose", 
-        "text": "personal protection"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 4, 
-            "end": 23, 
-            "value": "personal protection", 
-            "entity": "ask_purpose"
-          }
-        ], 
-        "intent": "target_purpose", 
-        "text": "for personal protection"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 8, 
-            "end": 15, 
-            "value": "hunting", 
-            "entity": "ask_purpose"
-          }
-        ], 
-        "intent": "target_purpose", 
-        "text": "gun for hunting"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 0, 
-            "end": 7, 
-            "value": "hunting", 
-            "entity": "ask_purpose"
-          }
-        ], 
-        "intent": "target_purpose", 
-        "text": "hunting"
-      }, 
-      {
-        "entities": [
-          {
-            "start": 0, 
-            "end": 7, 
-            "value": "vehicle", 
-            "entity": "ask_purpose_pp_sub"
-          }, 
-          {
-            "start": 0, 
-            "end": 7, 
-            "value": "vehicle", 
-            "entity": ""
-          }
-        ], 
-        "intent": "target_purpose_pp_sub", 
-        "text": "vehicle"
+        "text": "dear sir", 
+        "intent": "greet"
       }
     ], 
     "entity_synonyms": [], 

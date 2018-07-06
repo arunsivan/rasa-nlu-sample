@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 
 def run_weather_online(input_channel, interpreter,
-                          domain_file="cct-chatbot-nlu_domain.yml",
+                          domain_file="/domain/cct-chatbot-nlu_domain.yml",
                           training_data_file='data/stories.md'):
     agent = Agent(domain_file,
                   policies=[MemoizationPolicy(max_history=2), KerasPolicy()],

@@ -1,15 +1,9 @@
 {
   "action_fingerprints": {
-    "utter_goodbye": {
-      "slots": []
-    }, 
-    "utter_ask_purpose": {
+    "utter_greet": {
       "slots": []
     }, 
     "action_listen": {
-      "slots": []
-    }, 
-    "utter_ask_purpose_pp_sub": {
       "slots": []
     }
   }, 

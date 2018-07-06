@@ -9,11 +9,11 @@ def train_nlu(data, configs, model_dir):
 	trainer = Trainer(config.load(configs))
 	trainer.train(training_data)
 	model_directory = trainer.persist(model_dir, fixed_model_name = 'cct-bot-nlu')
-	
+
 def run_nlu():
 	interpreter = Interpreter.load('./models/nlu/default/cct-bot-nlu')
 	print(interpreter.parse(u'i need a gun for personal protection'))
-	
+
 if __name__ == '__main__':
-	train_nlu('./data/data.json', 'config_spacy.yml', './models/nlu')
+	train_nlu('./data/data.json', '/config/config_spacy.yml', './models/nlu')
 	# run_nlu()

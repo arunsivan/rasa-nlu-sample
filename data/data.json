@@ -2,32 +2,7 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "text": "Hello",
-        "intent": "greet",
-        "entities": []
-      },
-      {
-        "text": "goodbye",
-        "intent": "goodbye",
-        "entities": []
-      },
-      {
         "text": "hey",
-        "intent": "greet",
-        "entities": []
-      },
-      {
-        "text": "hello",
-        "intent": "greet",
-        "entities": []
-      },
-      {
-        "text": "hi",
-        "intent": "greet",
-        "entities": []
-      },
-      {
-        "text": "heya",
         "intent": "greet",
         "entities": []
       },
@@ -42,161 +17,29 @@
         "entities": []
       },
       {
-        "text": "bye",
-        "intent": "goodbye",
+        "text": "hello",
+        "intent": "greet",
         "entities": []
       },
       {
-        "text": "goodbye",
-        "intent": "goodbye",
+        "text": "hi",
+        "intent": "greet",
         "entities": []
       },
       {
-        "text": "bye bye",
-        "intent": "goodbye",
+        "text": "good morning",
+        "intent": "greet",
         "entities": []
       },
       {
-        "text": "see ya",
-        "intent": "goodbye",
+        "text": "good evening",
+        "intent": "greet",
         "entities": []
       },
       {
-        "text": "see you later",
-        "intent": "goodbye",
+        "text": "dear sir",
+        "intent": "greet",
         "entities": []
-      },
-      {
-        "text": "i need a gun",
-        "intent": "target_subject",
-        "entities": [
-          {
-            "start": 9,
-            "end": 12,
-            "value": "gun",
-            "entity": "subject"
-          },
-          {
-            "start": 9,
-            "end": 12,
-            "value": "gun",
-            "entity": ""
-          }
-        ]
-      },
-      {
-        "text": "i need gun",
-        "intent": "target_subject",
-        "entities": [
-          {
-            "start": 7,
-            "end": 10,
-            "value": "gun",
-            "entity": "subject"
-          }
-        ]
-      },
-      {
-        "text": "i need to buy a gun",
-        "intent": "target_subject",
-        "entities": [
-          {
-            "start": 16,
-            "end": 19,
-            "value": "gun",
-            "entity": "subject"
-          }
-        ]
-      },
-      {
-        "text": "find me a gun",
-        "intent": "target_subject",
-        "entities": [
-          {
-            "start": 10,
-            "end": 13,
-            "value": "gun",
-            "entity": "subject"
-          }
-        ]
-      },
-      {
-        "text": "gun for personal protection",
-        "intent": "target_purpose",
-        "entities": [
-          {
-            "start": 8,
-            "end": 27,
-            "value": "personal protection",
-            "entity": "ask_purpose"
-          }
-        ]
-      },
-      {
-        "text": "personal protection",
-        "intent": "target_purpose",
-        "entities": [
-          {
-            "start": 0,
-            "end": 19,
-            "value": "personal protection",
-            "entity": "ask_purpose"
-          }
-        ]
-      },
-      {
-        "text": "for personal protection",
-        "intent": "target_purpose",
-        "entities": [
-          {
-            "start": 4,
-            "end": 23,
-            "value": "personal protection",
-            "entity": "ask_purpose"
-          }
-        ]
-      },
-      {
-        "text": "gun for hunting",
-        "intent": "target_purpose",
-        "entities": [
-          {
-            "start": 8,
-            "end": 15,
-            "value": "hunting",
-            "entity": "ask_purpose"
-          }
-        ]
-      },
-      {
-        "text": "hunting",
-        "intent": "target_purpose",
-        "entities": [
-          {
-            "start": 0,
-            "end": 7,
-            "value": "hunting",
-            "entity": "ask_purpose"
-          }
-        ]
-      },
-      {
-        "text": "vehicle",
-        "intent": "target_purpose_pp_sub",
-        "entities": [
-          {
-            "start": 0,
-            "end": 7,
-            "value": "vehicle",
-            "entity": "ask_purpose_pp_sub"
-          },
-          {
-            "start": 0,
-            "end": 7,
-            "value": "vehicle",
-            "entity": ""
-          }
-        ]
       }
     ]
   }

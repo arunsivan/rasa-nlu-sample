@@ -1,0 +1,19 @@
+- utter_greet
+* target_subject{"subject": "guns"}
+    - utter_ask_purpose
+* target_purpose{"purpose": "personal protection"}
+    - slot{"purpose": "personal protection"}
+    - utter_ask_purpose_pp_sub
+* target_purpose_pp_sub{"purpose_sub": "concealed carry"}
+    - slot{"purpose_sub": "concealed carry"}
+    - utter_ask_recoil
+* target_recoil{"recoil": "any recoil"}
+    - slot{"recoil": "any recoil"}
+    - utter_ask_manufacturer
+* target_manufacturer{"manufacturer": "glock"}
+    - slot{"manufacturer": "glock"}
+    - utter_ask_budget
+* target_budget{"budget": "No budget"}
+    - slot{"budget": "No budget"}
+    - utter_greet
+    - export
