@@ -1,0 +1,29 @@
+{
+  "action_fingerprints": {
+    "utter_greet": {
+      "slots": []
+    }, 
+    "utter_ask_purpose": {
+      "slots": []
+    }, 
+    "action_listen": {
+      "slots": []
+    }, 
+    "utter_ask_location": {
+      "slots": []
+    }, 
+    "utter_goodbye": {
+      "slots": []
+    }
+  }, 
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy", 
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ], 
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble", 
+  "max_histories": [
+    2, 
+    5
+  ], 
+  "rasa_core": "0.9.7"
+}

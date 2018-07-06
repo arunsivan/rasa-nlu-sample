@@ -1,0 +1,147 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "goodbye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "hey", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hello", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "heya", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "howdy", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hey there", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "bye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "goodbye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "bye bye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "see ya", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "see you later", 
+        "intent": "goodbye"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 12, 
+            "value": "gun", 
+            "entity": "subject"
+          }, 
+          {
+            "start": 17, 
+            "end": 36, 
+            "value": "personal protection", 
+            "entity": "purpose"
+          }
+        ], 
+        "intent": "target_purpose", 
+        "text": "i need a gun for personal protection"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 10, 
+            "value": "gun", 
+            "entity": "subject"
+          }
+        ], 
+        "intent": "target_purpose", 
+        "text": "i need gun"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 19, 
+            "value": "gun", 
+            "entity": "subject"
+          }, 
+          {
+            "start": 24, 
+            "end": 31, 
+            "value": "hunting", 
+            "entity": "purpose"
+          }
+        ], 
+        "intent": "target_purpose", 
+        "text": "i need to buy a gun for hunting"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 13, 
+            "value": "gun", 
+            "entity": "subject"
+          }
+        ], 
+        "intent": "target_purpose", 
+        "text": "find me a gun"
+      }
+    ], 
+    "entity_synonyms": [
+      {
+        "synonyms": [
+          "shoot", 
+          "Recreatinal shooting", 
+          "hunting", 
+          "personal", 
+          "personal protection", 
+          "hunt", 
+          "protection", 
+          "shooting"
+        ], 
+        "value": "purpose"
+      }, 
+      {
+        "synonyms": [
+          "shotgun", 
+          "gun", 
+          "firearm", 
+          "pistol", 
+          "firearms", 
+          "rifle", 
+          "handgun", 
+          "guns"
+        ], 
+        "value": "subject"
+      }
+    ], 
+    "regex_features": []
+  }
+}
