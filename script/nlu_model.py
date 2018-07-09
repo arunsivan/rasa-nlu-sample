@@ -5,7 +5,7 @@ from rasa_nlu.model import Metadata, Interpreter
 import shutil
 import os
 # from __future__ import unicode_literals
-#commit
+#commit h
 def train_nlu(data, configs, model_dir):
 	if os.path.exists("../models"):
 		shutil.rmtree("../models")
