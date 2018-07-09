@@ -1,5 +1,5 @@
 {
-    "trained_at": "20180707-135603", 
+    "trained_at": "20180709-135024", 
     "pipeline": [
         {
             "class": "rasa_nlu.utils.spacy_utils.SpacyNLP", 
