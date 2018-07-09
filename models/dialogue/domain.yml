@@ -4,27 +4,31 @@ action_names:
 - utter_goodbye
 - utter_ask_subject
 - utter_ask_purpose
-- utter_ask_purpose_pp_sub
+- utter_ask_pp_sub
 - utter_ask_recoil
 - utter_ask_budget
 - utter_ask_manufacturer
 - utter_ask_category
+- utter_default
+- action_search
 actions:
 - utter_greet
 - utter_goodbye
 - utter_ask_subject
 - utter_ask_purpose
-- utter_ask_purpose_pp_sub
+- utter_ask_pp_sub
 - utter_ask_recoil
 - utter_ask_budget
 - utter_ask_manufacturer
 - utter_ask_category
+- utter_default
+- actions.ActionSearch
 config:
   store_entities_as_slots: true
 entities:
 - subject
 - purpose
-- purpose_sub
+- pp_sub
 - budget
 - manufacturer
 - category
@@ -34,7 +38,7 @@ intents:
 - goodbye
 - target_subject
 - target_purpose
-- target_purpose_pp_sub
+- target_pp_sub
 - target_recoil
 - target_budget
 - target_manufacturer
@@ -64,6 +68,14 @@ slots:
     - glock
     - beretta
     - smith & wesson
+  pp_sub:
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - concealed carry
+    - home
+    - vehicle
+    - women, persons of small stature, limited strength
   purpose:
     initial_value: null
     type: rasa_core.slots.CategoricalSlot
@@ -72,14 +84,6 @@ slots:
     - hunting
     - recreational shooting
     - something else
-  purpose_sub:
-    initial_value: null
-    type: rasa_core.slots.CategoricalSlot
-    values:
-    - concealed carry
-    - home
-    - vehicle
-    - women, persons of small stature, limited strength
   recoil:
     initial_value: null
     type: rasa_core.slots.CategoricalSlot
@@ -88,6 +92,12 @@ slots:
     - medium recoil
     - heavy recoil
     - low recoil
+  requested_slot:
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  search_results:
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
   subject:
     initial_value: null
     type: rasa_core.slots.CategoricalSlot
@@ -128,6 +138,17 @@ templates:
     - payload: Smith & Wesson
       title: Smith & Wesson
     text: Which manufacturer would you prefer ?
+  utter_ask_pp_sub:
+  - buttons:
+    - payload: concealed carry
+      title: Concealed Carry
+    - payload: Home
+      title: Home
+    - payload: Vehicle
+      title: Vehicle
+    - payload: Women, Persons of Small Stature, Limited Strength
+      title: Women, Persons of Small Stature, Limited Strength
+    text: what type of {purpose} do you need?
   utter_ask_purpose:
   - buttons:
     - payload: personal protection
@@ -139,17 +160,6 @@ templates:
     - payload: Something else
       title: Something else
     text: what type of {subject} do you need?
-  utter_ask_purpose_pp_sub:
-  - buttons:
-    - payload: concealed carry
-      title: Concealed Carry
-    - payload: Home
-      title: Home
-    - payload: Vehicle
-      title: Vehicle
-    - payload: Women, Persons of Small Stature, Limited Strength
-      title: Women, Persons of Small Stature, Limited Strength
-    text: what type of {purpose} do you need?
   utter_ask_recoil:
   - buttons:
     - payload: any
@@ -168,6 +178,8 @@ templates:
     - payload: movies
       title: Movies
     text: what do you need to know about
+  utter_default:
+  - text: i dont undersatnf, say again !
   utter_goodbye:
   - text: Talk to you later.
   - text: Bye bye :(

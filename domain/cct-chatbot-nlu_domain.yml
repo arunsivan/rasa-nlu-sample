@@ -11,7 +11,7 @@ slots:
       - Hunting
       - Recreational Shooting
       - Something else
-  purpose_sub:
+  pp_sub:
     type: categorical
     values:
       - Concealed Carry
@@ -46,13 +46,17 @@ slots:
       - Glock
       - Beretta
       - Smith & Wesson
+  search_results:
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
 
 intents:
  - greet
  - goodbye
  - target_subject
  - target_purpose
- - target_purpose_pp_sub
+ - target_pp_sub
  - target_recoil
  - target_budget
  - target_manufacturer
@@ -61,7 +65,7 @@ intents:
 entities:
  - subject
  - purpose
- - purpose_sub
+ - pp_sub
  - budget
  - manufacturer
  - category
@@ -93,7 +97,7 @@ templates:
         payload: 'Recreational Shooting'
       - title: 'Something else'
         payload: 'Something else'
-  utter_ask_purpose_pp_sub:
+  utter_ask_pp_sub:
     - text: 'what type of {purpose} do you need?'
       buttons:
       - title: 'Concealed Carry'
@@ -148,14 +152,18 @@ templates:
         payload: 'Shotgun'
       - title: 'Rifle'
         payload: 'Rifle'
+  utter_default:
+    - text: 'i dont undersatnf, say again !'
 
 actions:
  - utter_greet
  - utter_goodbye
  - utter_ask_subject
  - utter_ask_purpose
- - utter_ask_purpose_pp_sub
+ - utter_ask_pp_sub
  - utter_ask_recoil
  - utter_ask_budget
  - utter_ask_manufacturer
  - utter_ask_category
+ - utter_default
+ - actions.ActionSearch

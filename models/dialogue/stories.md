@@ -1,28 +1,44 @@
-## Generated Story 7163456763293033120
+## Generated Story -7663984323203909258
 * greet
     - utter_greet
+* search_gun
+    - action_search
 * greet
     - utter_greet
+* search_gun
+    - action_search
 * greet
     - utter_greet
+* search_gun
+    - action_search
 
-## Generated Story -6242995196361066436
+## Generated Story -5994092453542476384
 * greet
     - utter_greet
+* search_gun
+    - action_search
+* greet
+    - utter_greet
+* search_gun
+    - action_search
 
-## Generated Story 2971291029581849964
+## Generated Story -7663984323203909258
 * greet
     - utter_greet
+* search_gun
+    - action_search
 * greet
     - utter_greet
+* search_gun
+    - action_search
+* greet
+    - utter_greet
+* search_gun
+    - action_search
 
-## Generated Story -2612910166196038920
+## Generated Story -1629124583376830598
 * greet
     - utter_greet
-* greet
-    - utter_greet
-* greet
-    - utter_greet
-* greet
-    - utter_greet
+* search_gun
+    - action_search
 

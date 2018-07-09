@@ -40,6 +40,41 @@
         "text": "dear sir",
         "intent": "greet",
         "entities": []
+      },
+      {
+        "text": "find me guns",
+        "intent": "gun_search",
+        "entities": []
+      },
+      {
+        "text": "suggest guns",
+        "intent": "gun_search",
+        "entities": []
+      },
+      {
+        "text": "i need gun",
+        "intent": "gun_search",
+        "entities": []
+      },
+      {
+        "text": "i am planning to buy a gun",
+        "intent": "gun_search",
+        "entities": []
+      },
+      {
+        "text": "i am looking forward to buy a gun",
+        "intent": "gun_search",
+        "entities": []
+      },
+      {
+        "text": "i am searching for a gun for my protection",
+        "intent": "gun_search",
+        "entities": []
+      },
+      {
+        "text": "please suggest me some gun models for daily use",
+        "intent": "gun_search",
+        "entities": []
       }
     ]
   }

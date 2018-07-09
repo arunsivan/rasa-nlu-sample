@@ -1,6 +1,6 @@
 {
   "action_fingerprints": {
-    "utter_greet": {
+    "action_search": {
       "slots": []
     }, 
     "action_listen": {
@@ -9,12 +9,14 @@
   }, 
   "policy_names": [
     "rasa_core.policies.memoization.MemoizationPolicy", 
-    "rasa_core.policies.keras_policy.KerasPolicy"
+    "rasa_core.policies.keras_policy.KerasPolicy", 
+    "rasa_core.policies.fallback.FallbackPolicy"
   ], 
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble", 
   "max_histories": [
     2, 
-    5
+    5, 
+    null
   ], 
   "rasa_core": "0.9.7"
 }
